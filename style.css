@@ -1,0 +1,85 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fefeff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#app {
+  background: white;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(71, 71, 71);
+  width: 500px;
+}
+.portfolio-link {
+  text-decoration: none; /* Remove underline */
+}
+
+.portfolio-link h4 {
+  border: 1px solid black; /* Create a box */
+  padding: 6px; /* Add some padding inside the box */
+  display: inline-block; /* Ensure the box fits the content */
+}
+
+h1 {
+  text-align: center;
+  color: #010102;
+}
+
+form {
+  display: flex;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px 0 0 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: #333;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+li button {
+  background: none;
+  border: none;
+  color: #0a0a0a;
+  cursor: pointer;
+}
+
+li button:hover {
+  color: #aa0000;
+}
